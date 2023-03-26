@@ -21,7 +21,7 @@ jobs:
           hugo-version: '0.111.3'
 
       - name: Build
-        run: cd my_blog && hugo --minify
+        run: cd my_first_blog && hugo --minify
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
